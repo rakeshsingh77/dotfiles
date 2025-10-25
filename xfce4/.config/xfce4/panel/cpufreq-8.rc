@@ -1,0 +1,7 @@
+timeout=5
+icon_color_freq=true
+fontname=FiraCode Nerd Font Medium 7
+fontcolor=rgb(71,195,236)
+show_cpu=-2
+keep_compact=true
+

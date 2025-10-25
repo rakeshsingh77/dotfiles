@@ -1,0 +1,435 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="plugins" type="empty">
+    <property name="plugin-20" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17571476357.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-31" type="empty">
+      <property name="items" type="array">
+      </property>
+    </property>
+    <property name="plugin-22" type="string" value="separator">
+      <property name="items" type="array">
+      </property>
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-30" type="string" value="clock">
+      <property name="items" type="array">
+      </property>
+      <property name="timezone" type="string" value="Africa/Johannesburg"/>
+      <property name="digital-layout" type="uint" value="1"/>
+      <property name="tooltip-format" type="string" value="&lt;span color=&quot;#47c3ec&quot;&gt;%A %d %B %Y&lt;/span&gt;"/>
+      <property name="digital-time-format" type="string" value="&lt;span color=&apos;#47c3ec&apos;&gt;%R&lt;/span&gt;"/>
+      <property name="digital-date-format" type="string" value="&lt;span color=&quot;#47c3ec&quot;&gt;%Y-%m-%d&lt;/span&gt;"/>
+      <property name="digital-date-font" type="string" value="Sans Bold 8"/>
+      <property name="digital-time-font" type="string" value="Sans Bold 8"/>
+    </property>
+    <property name="plugin-21" type="string" value="systray">
+      <property name="items" type="array">
+      </property>
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “jedi” active: jedi (64%)"/>
+        <value type="string" value="wi-fi network connection “c3po” active: c3po (25%)"/>
+        <value type="string" value="wi-fi network connection “jedi” active: jedi (57%)"/>
+        <value type="string" value="wi-fi network connection “r2d2” active: r2d2 (39%)"/>
+        <value type="string" value="wi-fi network connection “c3po” active: c3po (65%)"/>
+        <value type="string" value="wi-fi network connection “c3po” active: c3po (63%)"/>
+        <value type="string" value="wi-fi network connection “c3po” active: c3po (59%)"/>
+        <value type="string" value="wi-fi network connection “c3po” active: c3po (57%)"/>
+        <value type="string" value="wi-fi network connection “c3po” active: c3po (61%)"/>
+        <value type="string" value="wi-fi network connection “r2d2” active: r2d2 (71%)"/>
+        <value type="string" value="wi-fi network connection “r2d2” active: r2d2 (72%)"/>
+        <value type="string" value="wi-fi network connection “r2d2” active: r2d2 (69%)"/>
+        <value type="string" value="wi-fi network connection “r2d2” active: r2d2 (70%)"/>
+        <value type="string" value="wi-fi network connection “r2d2” active: r2d2 (41%)"/>
+        <value type="string" value="wi-fi network connection “r2d2” active: r2d2 (35%)"/>
+        <value type="string" value="wi-fi network connection “r2d2” active: r2d2 (42%)"/>
+        <value type="string" value="wi-fi network connection “r2d2” active: r2d2 (45%)"/>
+        <value type="string" value="wi-fi network connection “jedi” active: jedi (70%)"/>
+        <value type="string" value="wi-fi network connection “r2d2” active: r2d2 (43%)"/>
+        <value type="string" value="user authentication required for wi-fi network “dd-clubhouse-south”…"/>
+        <value type="string" value="configuring wi-fi network connection “c3po”…"/>
+        <value type="string" value="wi-fi network connection “r2d2” active: r2d2 (38%)"/>
+        <value type="string" value="wi-fi network connection “r2d2” active: r2d2 (66%)"/>
+        <value type="string" value="wi-fi network connection “r2d2” active: r2d2 (49%)"/>
+        <value type="string" value="wi-fi network connection “r2d2” active: r2d2 (67%)"/>
+        <value type="string" value="wi-fi network connection “jedi” active: jedi (56%)"/>
+        <value type="string" value="wi-fi network connection “jedi” active: jedi (60%)"/>
+        <value type="string" value="wi-fi network connection “jedi” active: jedi (66%)"/>
+        <value type="string" value="wi-fi network connection “jedi” active: jedi (61%)"/>
+        <value type="string" value="wi-fi network connection “jedi” active: jedi (67%)"/>
+        <value type="string" value="wi-fi network connection “jedi” active: jedi (62%)"/>
+        <value type="string" value="wi-fi network connection “jedi” active: jedi (58%)"/>
+        <value type="string" value="wi-fi network connection “jedi” active: jedi (65%)"/>
+        <value type="string" value="wi-fi network connection “jedi” active: jedi (59%)"/>
+        <value type="string" value="wi-fi network connection “c3po” active: c3po (36%)"/>
+        <value type="string" value="wi-fi network connection “jedi” active: jedi (68%)"/>
+        <value type="string" value="wi-fi network connection “jedi” active: jedi (63%)"/>
+        <value type="string" value="wi-fi network connection “r2d2” active: r2d2 (52%)"/>
+        <value type="string" value="crowdstrike falcon sensor: running"/>
+        <value type="string" value="beyondtrust privilege management"/>
+        <value type="string" value="wi-fi network connection “jedi” active: jedi (37%)"/>
+        <value type="string" value="wi-fi network connection “r2d2” active: r2d2 (60%)"/>
+        <value type="string" value="wi-fi network connection “r2d2” active: r2d2 (58%)"/>
+        <value type="string" value="wi-fi network connection “r2d2” active: r2d2 (65%)"/>
+        <value type="string" value="wi-fi network connection “r2d2” active: r2d2 (53%)"/>
+        <value type="string" value="blueman"/>
+        <value type="string" value="wi-fi network connection “r2d2” active: r2d2 (59%)"/>
+        <value type="string" value="pamac-tray"/>
+        <value type="string" value="wi-fi network connection “r2d2” active: r2d2 (61%)"/>
+        <value type="string" value="wi-fi network connection “r2d2” active: r2d2 (68%)"/>
+        <value type="string" value="no network connection"/>
+        <value type="string" value="wi-fi network connection “r2d2” active: r2d2 (62%)"/>
+        <value type="string" value="wi-fi network connection “r2d2” active: r2d2 (63%)"/>
+        <value type="string" value="guake"/>
+        <value type="string" value="wi-fi network connection “jedi” active: jedi (75%)"/>
+        <value type="string" value="clipman"/>
+        <value type="string" value="wi-fi network connection “darthvader” active: darthvader (75%)"/>
+      </property>
+      <property name="known-items" type="array">
+        <value type="string" value="steam"/>
+        <value type="string" value="nm-applet"/>
+        <value type="string" value="indicator-solaar"/>
+        <value type="string" value="chrome_status_icon_1"/>
+        <value type="string" value="blueman"/>
+      </property>
+      <property name="square-icons" type="bool" value="false"/>
+      <property name="icon-size" type="int" value="0"/>
+      <property name="hide-new-items" type="bool" value="true"/>
+      <property name="hidden-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “r2d2” active: r2d2 (35%)"/>
+        <value type="string" value="wi-fi network connection “r2d2” active: r2d2 (58%)"/>
+        <value type="string" value="wi-fi network connection “jedi” active: jedi (58%)"/>
+        <value type="string" value="pamac-tray"/>
+        <value type="string" value="no network connection"/>
+        <value type="string" value="wi-fi network connection “jedi” active: jedi (67%)"/>
+        <value type="string" value="blueman"/>
+        <value type="string" value="wi-fi network connection “r2d2” active: r2d2 (53%)"/>
+        <value type="string" value="wi-fi network connection “r2d2” active: r2d2 (38%)"/>
+        <value type="string" value="wi-fi network connection “r2d2” active: r2d2 (67%)"/>
+        <value type="string" value="wi-fi network connection “jedi” active: jedi (62%)"/>
+        <value type="string" value="wi-fi network connection “c3po” active: c3po (65%)"/>
+        <value type="string" value="wi-fi network connection “r2d2” active: r2d2 (71%)"/>
+        <value type="string" value="wi-fi network connection “c3po” active: c3po (36%)"/>
+        <value type="string" value="wi-fi network connection “jedi” active: jedi (56%)"/>
+        <value type="string" value="wi-fi network connection “r2d2” active: r2d2 (42%)"/>
+        <value type="string" value="wi-fi network connection “r2d2” active: r2d2 (65%)"/>
+        <value type="string" value="wi-fi network connection “jedi” active: jedi (65%)"/>
+        <value type="string" value="wi-fi network connection “r2d2” active: r2d2 (59%)"/>
+        <value type="string" value="wi-fi network connection “jedi” active: jedi (59%)"/>
+        <value type="string" value="wi-fi network connection “r2d2” active: r2d2 (60%)"/>
+        <value type="string" value="wi-fi network connection “c3po” active: c3po (25%)"/>
+        <value type="string" value="wi-fi network connection “jedi” active: jedi (68%)"/>
+        <value type="string" value="wi-fi network connection “c3po” active: c3po (63%)"/>
+        <value type="string" value="wi-fi network connection “r2d2” active: r2d2 (68%)"/>
+        <value type="string" value="wi-fi network connection “r2d2” active: r2d2 (39%)"/>
+        <value type="string" value="wi-fi network connection “c3po” active: c3po (57%)"/>
+        <value type="string" value="wi-fi network connection “jedi” active: jedi (60%)"/>
+        <value type="string" value="user authentication required for wi-fi network “dd-clubhouse-south”…"/>
+        <value type="string" value="wi-fi network connection “jedi” active: jedi (63%)"/>
+        <value type="string" value="beyondtrust privilege management"/>
+        <value type="string" value="wi-fi network connection “r2d2” active: r2d2 (72%)"/>
+        <value type="string" value="wi-fi network connection “jedi” active: jedi (57%)"/>
+        <value type="string" value="wi-fi network connection “r2d2” active: r2d2 (45%)"/>
+        <value type="string" value="wi-fi network connection “r2d2” active: r2d2 (43%)"/>
+        <value type="string" value="wi-fi network connection “r2d2” active: r2d2 (66%)"/>
+        <value type="string" value="wi-fi network connection “jedi” active: jedi (66%)"/>
+        <value type="string" value="wi-fi network connection “r2d2” active: r2d2 (52%)"/>
+        <value type="string" value="wi-fi network connection “c3po” active: c3po (61%)"/>
+        <value type="string" value="wi-fi network connection “jedi” active: jedi (37%)"/>
+        <value type="string" value="wi-fi network connection “r2d2” active: r2d2 (61%)"/>
+        <value type="string" value="wi-fi network connection “jedi” active: jedi (61%)"/>
+        <value type="string" value="wi-fi network connection “r2d2” active: r2d2 (69%)"/>
+        <value type="string" value="wi-fi network connection “r2d2” active: r2d2 (70%)"/>
+        <value type="string" value="wi-fi network connection “jedi” active: jedi (70%)"/>
+        <value type="string" value="wi-fi network connection “r2d2” active: r2d2 (41%)"/>
+        <value type="string" value="crowdstrike falcon sensor: running"/>
+        <value type="string" value="configuring wi-fi network connection “c3po”…"/>
+        <value type="string" value="wi-fi network connection “jedi” active: jedi (64%)"/>
+        <value type="string" value="wi-fi network connection “r2d2” active: r2d2 (49%)"/>
+        <value type="string" value="wi-fi network connection “c3po” active: c3po (59%)"/>
+      </property>
+      <property name="hidden-items" type="array">
+        <value type="string" value="chrome_status_icon_1"/>
+        <value type="string" value="indicator-solaar"/>
+        <value type="string" value="steam"/>
+        <value type="string" value="nm-applet"/>
+      </property>
+    </property>
+    <property name="plugin-24" type="string" value="notification-plugin">
+      <property name="items" type="array">
+      </property>
+    </property>
+    <property name="plugin-1" type="string" value="whiskermenu">
+      <property name="position-categories-alternate" type="bool" value="true"/>
+      <property name="button-icon" type="string" value="distributor-logo-manjaro"/>
+      <property name="show-command-logoutuser" type="bool" value="false"/>
+      <property name="show-command-restart" type="bool" value="true"/>
+      <property name="show-command-shutdown" type="bool" value="true"/>
+      <property name="show-command-switchuser" type="bool" value="true"/>
+      <property name="recent" type="array">
+        <value type="string" value="libreoffice-writer.desktop"/>
+        <value type="string" value="org.xfce.mousepad.desktop"/>
+        <value type="string" value="xfce4-screenshooter.desktop"/>
+        <value type="string" value="timeshift-gtk.desktop"/>
+        <value type="string" value="solaar.desktop"/>
+        <value type="string" value="xfce-mouse-settings.desktop"/>
+        <value type="string" value="gimp.desktop"/>
+        <value type="string" value="nl.hjdskes.gcolor3.desktop"/>
+        <value type="string" value="xfce-session-settings.desktop"/>
+        <value type="string" value="netbeans.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-2" type="string" value="separator"/>
+    <property name="plugin-3" type="string" value="pager">
+      <property name="rows" type="uint" value="1"/>
+    </property>
+    <property name="plugin-4" type="string" value="separator"/>
+    <property name="plugin-5" type="string" value="separator"/>
+    <property name="plugin-6" type="string" value="tasklist"/>
+    <property name="plugin-7" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-8" type="string" value="cpufreq"/>
+    <property name="plugin-9" type="string" value="power-manager-plugin"/>
+    <property name="plugin-12" type="string" value="actions">
+      <property name="appearance" type="uint" value="0"/>
+      <property name="items" type="array">
+        <value type="string" value="-lock-screen"/>
+        <value type="string" value="-switch-user"/>
+        <value type="string" value="-separator"/>
+        <value type="string" value="-suspend"/>
+        <value type="string" value="-hibernate"/>
+        <value type="string" value="-hybrid-sleep"/>
+        <value type="string" value="-separator"/>
+        <value type="string" value="-shutdown"/>
+        <value type="string" value="-restart"/>
+        <value type="string" value="-separator"/>
+        <value type="string" value="+logout"/>
+        <value type="string" value="-logout-dialog"/>
+      </property>
+    </property>
+    <property name="plugin-13" type="string" value="clock">
+      <property name="timezone" type="string" value="Africa/Johannesburg"/>
+      <property name="tooltip-format" type="string" value="&lt;span color=&quot;#47c3ec&quot;&gt;%A %d %B %Y&lt;/span&gt;"/>
+      <property name="digital-layout" type="uint" value="1"/>
+      <property name="digital-date-font" type="string" value="FiraCode Nerd Font Propo Medium 8"/>
+      <property name="digital-date-format" type="string" value="&lt;span color=&quot;#47c3ec&quot;&gt;%Y-%m-%d&lt;/span&gt;"/>
+      <property name="digital-time-font" type="string" value="FiraCode Nerd Font Propo Medium 8"/>
+      <property name="digital-time-format" type="string" value="&lt;span color=&apos;#47c3ec&apos;&gt;%R&lt;/span&gt;"/>
+    </property>
+    <property name="plugin-14" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17571475141.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-15" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17571475432.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-16" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17571475633.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-17" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17571475804.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-18" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17571476055.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-11" type="string" value="tasklist"/>
+    <property name="plugin-23" type="string" value="cpugraph">
+      <property name="update-interval" type="int" value="1"/>
+      <property name="time-scale" type="int" value="0"/>
+      <property name="size" type="int" value="128"/>
+      <property name="mode" type="int" value="1"/>
+      <property name="color-mode" type="int" value="1"/>
+      <property name="frame" type="int" value="0"/>
+      <property name="border" type="int" value="1"/>
+      <property name="bars" type="int" value="0"/>
+      <property name="per-core" type="int" value="0"/>
+      <property name="tracked-core" type="int" value="0"/>
+      <property name="in-terminal" type="int" value="1"/>
+      <property name="startup-notification" type="int" value="0"/>
+      <property name="load-threshold" type="int" value="0"/>
+      <property name="smt-stats" type="int" value="1"/>
+      <property name="smt-issues" type="int" value="0"/>
+      <property name="per-core-spacing" type="int" value="1"/>
+      <property name="command" type="string" value=""/>
+      <property name="background" type="array">
+        <value type="double" value="1"/>
+        <value type="double" value="1"/>
+        <value type="double" value="1"/>
+        <value type="double" value="0"/>
+      </property>
+      <property name="foreground-1" type="array">
+        <value type="double" value="0.27843137254901962"/>
+        <value type="double" value="0.7647058823529409"/>
+        <value type="double" value="0.92549019607843142"/>
+        <value type="double" value="1"/>
+      </property>
+      <property name="foreground-2" type="array">
+        <value type="double" value="0.95333333333333337"/>
+        <value type="double" value="0.34002222222222228"/>
+        <value type="double" value="0.34002222222222228"/>
+        <value type="double" value="1"/>
+      </property>
+      <property name="foreground-3" type="array">
+        <value type="double" value="0"/>
+        <value type="double" value="0"/>
+        <value type="double" value="1"/>
+        <value type="double" value="1"/>
+      </property>
+      <property name="smt-issues-color" type="array">
+        <value type="double" value="0.90000000000000002"/>
+        <value type="double" value="0"/>
+        <value type="double" value="0"/>
+        <value type="double" value="1"/>
+      </property>
+      <property name="foreground-system" type="array">
+        <value type="double" value="0.90000000000000002"/>
+        <value type="double" value="0.10000000000000001"/>
+        <value type="double" value="0.10000000000000001"/>
+        <value type="double" value="1"/>
+      </property>
+      <property name="foreground-user" type="array">
+        <value type="double" value="0.10000000000000001"/>
+        <value type="double" value="0.40000000000000002"/>
+        <value type="double" value="0.90000000000000002"/>
+        <value type="double" value="1"/>
+      </property>
+      <property name="foreground-nice" type="array">
+        <value type="double" value="0.90000000000000002"/>
+        <value type="double" value="0.80000000000000004"/>
+        <value type="double" value="0.20000000000000001"/>
+        <value type="double" value="1"/>
+      </property>
+      <property name="foreground-iowait" type="array">
+        <value type="double" value="0.20000000000000001"/>
+        <value type="double" value="0.90000000000000002"/>
+        <value type="double" value="0.40000000000000002"/>
+        <value type="double" value="1"/>
+      </property>
+    </property>
+    <property name="plugin-25" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="known-players" type="string" value="firefox-developer-edition"/>
+    </property>
+    <property name="plugin-26" type="string" value="directorymenu">
+      <property name="base-directory" type="string" value="/home/rakesh"/>
+    </property>
+    <property name="plugin-27" type="string" value="systemload">
+      <property name="cpu" type="empty">
+        <property name="label" type="string" value="  "/>
+        <property name="color" type="array">
+          <value type="double" value="0.72941176470588243"/>
+          <value type="double" value="0.40784313725490196"/>
+          <value type="double" value="0.78431372549019607"/>
+          <value type="double" value="1"/>
+        </property>
+      </property>
+      <property name="memory" type="empty">
+        <property name="label" type="string" value="  "/>
+        <property name="color" type="array">
+          <value type="double" value="0.72941176470588243"/>
+          <value type="double" value="0.40784313725490196"/>
+          <value type="double" value="0.78431372549019607"/>
+          <value type="double" value="1"/>
+        </property>
+      </property>
+      <property name="swap" type="empty">
+        <property name="label" type="string" value=" 󰾴 "/>
+        <property name="color" type="array">
+          <value type="double" value="0.72941176470588243"/>
+          <value type="double" value="0.40784313725490196"/>
+          <value type="double" value="0.78431372549019607"/>
+          <value type="double" value="1"/>
+        </property>
+      </property>
+      <property name="network" type="empty">
+        <property name="label" type="string" value=" 󰀂 "/>
+        <property name="color" type="array">
+          <value type="double" value="0.72941176470588243"/>
+          <value type="double" value="0.40784313725490196"/>
+          <value type="double" value="0.78431372549019607"/>
+          <value type="double" value="1"/>
+        </property>
+      </property>
+      <property name="uptime" type="empty">
+        <property name="enabled" type="bool" value="false"/>
+      </property>
+      <property name="timeout-seconds" type="uint" value="5"/>
+    </property>
+    <property name="plugin-28" type="string" value="whiskermenu"/>
+    <property name="plugin-10" type="string" value="showdesktop"/>
+  </property>
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <value type="int" value="2"/>
+    <property name="dark-mode" type="bool" value="true"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=8;x=76;y=838"/>
+      <property name="size" type="uint" value="28"/>
+      <property name="length" type="double" value="100"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="enter-opacity" type="uint" value="95"/>
+      <property name="leave-opacity" type="uint" value="95"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="1"/>
+        <value type="int" value="2"/>
+        <value type="int" value="3"/>
+        <value type="int" value="4"/>
+        <value type="int" value="10"/>
+        <value type="int" value="15"/>
+        <value type="int" value="26"/>
+        <value type="int" value="17"/>
+        <value type="int" value="14"/>
+        <value type="int" value="16"/>
+        <value type="int" value="18"/>
+        <value type="int" value="20"/>
+        <value type="int" value="5"/>
+        <value type="int" value="6"/>
+        <value type="int" value="7"/>
+        <value type="int" value="9"/>
+        <value type="int" value="8"/>
+        <value type="int" value="21"/>
+        <value type="int" value="25"/>
+        <value type="int" value="13"/>
+        <value type="int" value="12"/>
+      </property>
+      <property name="border-width" type="uint" value="0"/>
+      <property name="icon-size" type="uint" value="20"/>
+    </property>
+    <property name="panel-2" type="empty">
+      <property name="position" type="string" value="p=8;x=2016;y=1055"/>
+      <property name="size" type="uint" value="28"/>
+      <property name="output-name" type="string" value="DP-1-0"/>
+      <property name="length" type="double" value="100"/>
+      <property name="enter-opacity" type="uint" value="95"/>
+      <property name="leave-opacity" type="uint" value="95"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="28"/>
+        <value type="int" value="11"/>
+        <value type="int" value="22"/>
+        <value type="int" value="23"/>
+        <value type="int" value="27"/>
+        <value type="int" value="30"/>
+        <value type="int" value="24"/>
+      </property>
+      <property name="icon-size" type="uint" value="20"/>
+    </property>
+  </property>
+</channel>

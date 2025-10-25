@@ -1,0 +1,97 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "blocks": [
+    {
+      "alignment": "left",
+      "segments": [
+        {
+          "foreground": "lightRed",
+          "foreground_templates": [
+            "{{ if gt .Code 0 }}lightRed{{ end }}",
+            "{{ if eq .Code 0 }}lightGreen{{ end }}"
+          ],
+          "properties": {
+            "always_enabled": true
+          },
+          "style": "plain",
+          "template": " ",
+          "type": "status"
+        },
+        {
+          "foreground": "#5355ff",
+          "foreground_templates": [
+            "{{ if .Root }}lightRed{{ end }}"
+          ],
+          "properties": {
+            "display_host": true
+          },
+          "style": "plain",
+          "template": "<{{ if .Root }}lightBlue{{ else }}lightRed{{ end }}>┌──(</>{{ .UserName }}{{ if .Root }}💀{{ else }}@{{ end }}{{ .HostName }}<{{ if .Root }}lightBlue{{ else }}lightRed{{ end }}>)</>",
+          "type": "session"
+        },
+        {
+          "foreground": "#5355ff",
+          "properties": {
+            "style": "full"
+          },
+          "style": "plain",
+          "template": "<{{ if .Root }}lightBlue{{ else }}lightRed{{ end }}>-[</>{{ .Path }}<{{ if .Root }}lightBlue{{ else }}lightRed{{ end }}>]</>",
+          "type": "path"
+        },
+        {
+          "foreground": "#4585b6",
+          "properties": {
+            "fetch_version": true,
+            "fetch_virtual_env": true
+          },
+          "style": "plain",
+          "template": "\n<{{ if .Root }}lightBlue{{ else }}lightRed{{ end }}>-[</> {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }}{{ end }} {{ .Full }}{{ end }}<{{ if .Root }}lightBlue{{ else }}lightRed{{ end }}>]</>",
+          "type": "python"
+        }
+      ],
+      "type": "prompt"
+    },
+    {
+      "alignment": "right",
+      "segments": [
+        {
+          "type": "git",
+          "style": "powerline",
+          "foreground": "#ffffff",
+          "background": "#61AFEF",
+          "background_templates": [
+            "{{ if or (.Working.Changed) (.Staging.Changed) }}#5c0100{{ end }}",
+            "{{ if and (gt .Ahead 0) (gt .Behind 0) }}#a8216b{{ end }}",
+            "{{ if gt .Ahead 0 }}#35b5ff{{ end }}",
+            "{{ if gt .Behind 0 }}#f89cfa{{ end }}"
+          ],
+          "template": "{{ .UpstreamIcon }}{{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }}  {{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }}  {{ .Staging.String }}{{ end }}{{ if gt .StashCount 0 }}  {{ .StashCount }}{{ end }}",
+          "properties": {
+            "fetch_status": true,
+            "fetch_upstream_icon": true,
+            "source": "cli",
+            "mapped_branches": {
+              "feat/*": "🚀 ",
+              "bug/*": "🐛 "
+            }
+          }
+        }
+      ],
+      "type": "prompt"
+    },
+    {
+      "alignment": "left",
+      "newline": true,
+      "segments": [
+        {
+          "foreground": "lightBlue",
+          "style": "plain",
+          "template": "<{{ if .Root }}lightBlue{{ else }}lightRed{{ end }}>└─</>{{ if .Root }}<lightRed>#</>{{ else }}${{ end }} ",
+          "type": "text"
+        }
+      ],
+      "type": "prompt"
+    }
+  ],
+  "version": 3
+}

@@ -1,0 +1,33 @@
+# ------------------------------------------------------------------------------
+# profile.batch
+# ------------------------------------------------------------------------------
+# Batch profile for application scripts.
+# ------------------------------------------------------------------------------
+# Called by: .profile.env || scripts
+# ------------------------------------------------------------------------------
+
+umask 002
+
+# Variables
+export DATA_DIR="/data01"
+export APPS_DIR="${DATA_DIR}/apps"
+export APP_NAME="darth-talon"
+export APP_HOME="${APPS_DIR}/${APP_NAME}"
+export BIN_DIR="${APP_HOME}/bin"
+export ETC_DIR="${APP_HOME}/etc"
+export LOG_DIR="${APP_HOME}/log"
+export LIB_DIR="${APP_HOME}/lib"
+export APP_CONF="${ETC_DIR}/${APP_NAME}.conf"
+
+if [ -f /usr/share/nvm/init-nvm.sh ] ; then
+    source /usr/share/nvm/init-nvm.sh
+fi
+
+
+# Paths
+if [ $( echo $PATH | grep -c "${BIN_DIR}") -eq 0 ] ; then
+    export PATH=${PATH}:${BIN_DIR}:.
+    export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}/${LIB_DIR}
+    export PYTHONPATH=${PYTHONPATH}:${LIB_DIR}/python/site-packages
+fi
+

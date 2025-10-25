@@ -1,0 +1,23 @@
+/* Set panel font to FiraCode Nerd Font, size 11pt */
+.xfce4-panel {
+    font-family: "FiraCode Nerd Font Bold";
+    font-size: 10pt;
+    color: #47c3ec;
+    border-top: 1px solid #2a2a2a;
+}
+
+/* Specifically target power manager plugin text */
+#xfce4-power-manager-plugin {
+    font-family: "FiraCode Nerd Font Bold";
+    font-size: 9pt;
+    color: #47c3ec;
+}
+
+/* Example: clock plugin with colorful font
+#clock-button {
+    font-family: "FiraCode Nerd Font";
+    font-size: 11pt;
+    color: #8be9fd; 
+}
+*/
+

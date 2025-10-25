@@ -1,0 +1,27 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<channel name="xfce4-screensaver" version="1.0">
+  <property name="saver" type="empty">
+    <property name="mode" type="int" value="2"/>
+    <property name="themes" type="empty">
+      <property name="list" type="array">
+        <value type="string" value="screensavers-xfce-personal-slideshow"/>
+      </property>
+    </property>
+    <property name="idle-activation" type="empty">
+      <property name="delay" type="int" value="30"/>
+    </property>
+  </property>
+  <property name="lock" type="empty">
+    <property name="saver-activation" type="empty">
+      <property name="delay" type="int" value="2"/>
+    </property>
+  </property>
+  <property name="screensavers" type="empty">
+    <property name="xfce-personal-slideshow" type="empty">
+      <property name="no-crop" type="bool" value="true"/>
+      <property name="arguments" type="string" value="&apos;--location=/home/rakesh/Pictures/wallpapers&apos; &apos;--background-color=#000000&apos; &apos;--no-crop&apos;"/>
+      <property name="location" type="string" value="/home/rakesh/Pictures/wallpapers"/>
+    </property>
+  </property>
+</channel>

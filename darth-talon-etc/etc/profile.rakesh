@@ -1,0 +1,40 @@
+# ------------------------------------------------------------------------------
+# profile.rakesh
+# ------------------------------------------------------------------------------
+# Custom profile for Rakesh Singh
+# ------------------------------------------------------------------------------
+# Called by: .profile.env || scripts
+# ------------------------------------------------------------------------------
+
+# Aliases
+alias df="df -x tmpfs"
+alias docker="sudo docker"
+alias gcm="git commit"
+alias gmg="git merge"
+alias gpl="git pull"
+alias gpu="git push"
+alias gst="git status"
+alias pamac="sudo pamac"
+
+# Variables
+export GIT_EDITOR=nvim
+export GIT_AUTHOR_NAME="Rakesh Singh"
+export GIT_AUTHOR_EMAIL="rakesh@sysras.com"
+export GIT_COMMITTER_NAME="${GIT_AUTHOR_NAME}"
+export GIT_COMMITTER_EMAIL="${GIT_AUTHOR_EMAIL}"
+
+# Virtual ENV Wrapper
+export WORKON_HOME=$DATA_DIR/virtualenvs
+export PROJECT_HOME=$DATA_DIR/source
+export VIRTUALENVWRAPPER_SCRIPT=/usr/bin/virtualenvwrapper.sh
+source /usr/bin/virtualenvwrapper_lazy.sh
+if [ ! -d $WORKON_HOME ] ; then
+    mkdir -p $WORKON_HOME
+fi
+if [ ! -d $PROJECT_HOME ] ; then
+    mkdir -p $PROJECT_HOME
+fi
+
+# Setup Oh-My-Posh
+eval "$(oh-my-posh init bash --config ~/.config/oh-my-posh/default.omp.json)"
+
